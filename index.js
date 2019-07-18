@@ -18,8 +18,8 @@ case 'SET_DOGS':
     // return [
     //     ...state,
     //     {...action.payload}]
-    if(action.payload ===[]){
-        return state =[]
+    if(action.payload.length === 0){
+        return []
     }
     else {
         return [
